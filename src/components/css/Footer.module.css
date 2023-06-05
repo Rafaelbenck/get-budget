@@ -1,0 +1,39 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 3em;
+  text-align: center;
+}
+
+.footer p {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.listIcons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.listIcons li {
+  margin: 0 1em;
+}
+
+.listIcons svg {
+  font-size: 1.5em;
+}
+
+.listIcons li:hover {
+  cursor: pointer;
+  color: #ffbb33;
+}
+
+.copyright {
+  margin: 1em 0;
+}
+
+.copyright span {
+  font-weight: bold;
+}
